@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        /*
         char myChar = 'D';
         char unicode = '\u00C0';
         //System.out.println("unicode = " + unicode);
@@ -51,8 +52,20 @@ public class Main {
         // if-Then statement
         boolean isAlien = false;
         if (isAlien) {
-            System.out.println(" IS not a alien");
-            System.out.println("Es un alien");
+//            System.out.println(" IS not a alien");
+            //           System.out.println("Es un alien");
+        }
+*/
+        int topScore = 100;
+        if (topScore != 100) {
+            System.out.println(" you got the high score");
+        }
+
+        int secondTopScore = 80;
+        if (topScore > secondTopScore || topScore < 11) {
+            System.out.println("Greater than second top score and less than 100");
+        } else {
+            System.out.println("ninguna");
         }
     }
 }

@@ -55,7 +55,7 @@ public class Main {
 //            System.out.println(" IS not a alien");
             //           System.out.println("Es un alien");
         }
-*/
+
         int topScore = 100;
         if (topScore != 100) {
             System.out.println(" you got the high score");
@@ -80,6 +80,9 @@ public class Main {
         if (booleanValue != true) {
             System.out.println("Got some reminder");
         }
+        */
+
+        
 
     }
 }

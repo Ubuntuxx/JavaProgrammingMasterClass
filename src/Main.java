@@ -63,9 +63,23 @@ public class Main {
 
         int secondTopScore = 80;
         if (topScore > secondTopScore || topScore < 11) {
-            System.out.println("Greater than second top score and less than 100");
+            //System.out.println("Greater than second top score and less than 100");
         } else {
-            System.out.println("ninguna");
+            //System.out.println("ninguna");
         }
+
+        //challenge
+
+        double doubleValue = 20.00d;
+        double doubleValue2 = 80.00d;
+        double multiply = (doubleValue2 + doubleValue) * 100.00d;
+        double reminder = (int) 40.00d % multiply;
+
+        boolean booleanValue = (reminder == 0) ? true : false;
+        System.out.println("booleanValue = " + booleanValue);
+        if (booleanValue != true) {
+            System.out.println("Got some reminder");
+        }
+
     }
 }

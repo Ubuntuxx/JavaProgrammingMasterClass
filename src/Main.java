@@ -5,7 +5,8 @@ public class Main {
         SpeedConverter.printConversion(10.25);
         SpeedConverter.printConversion(-5.6);
         SpeedConverter.printConversion(25.42);
-        SpeedConverter.printConversion(75.11);
+        SpeedConverter.printConversion(75.115);
+        SpeedConverter.printConversion(0.0);
 
     }
 }
